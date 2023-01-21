@@ -34,6 +34,16 @@ p {
     top: 10px;
     width: 100px;
     left: 0px;
+    animation: drive 5s linear infinite alternate;
+}
+
+@keyframes drive {
+    0% {
+        left: 0px;
+    }
+    100% {
+        left: 85%;
+    }
 }
 
 .pop-up {
