@@ -12,9 +12,11 @@ body {
 
 .container {
     position: relative; 
-    top: 200px; 
+    top: -500px; 
     width: 600px; 
     margin: 0 auto;
+    transform-origin: 10px 10px;
+    animation: swing 5s ease forwards;
 }
 
 h1{
@@ -24,6 +26,7 @@ h1{
 
 p {
     margin-bottom: 40px;
+    line-height: 25px;
 }
 
 .bike {
@@ -72,4 +75,16 @@ p {
     height: 22px;
     text-align: center;
     border-radius: 50%;
+}
+
+@keyframes swing {
+    0% {
+        transform: translateY(600px) rotateZ(0deg);
+    }
+    25% {
+        transform: translateY(600px) rotateZ(45deg);
+    }
+    100% {
+        transform: translateY(600px) rotateZ(0deg);
+    }
 }
