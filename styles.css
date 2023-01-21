@@ -16,7 +16,7 @@ body {
     width: 600px; 
     margin: 0 auto;
     transform-origin: 10px 10px;
-    animation: swing 5s ease forwards;
+    animation: swing 5s ease forwards infinite;
 }
 
 h1{
