@@ -32,3 +32,13 @@ p {
     width: 100px;
     left: 0px;
 }
+
+.pop-up {
+    text-align: center;
+    background: #f0e4d4; 
+    padding: 30px; 
+    position: relative; 
+    top: 5px; 
+    width: 100%; 
+    box-sizing: border-box;
+}
