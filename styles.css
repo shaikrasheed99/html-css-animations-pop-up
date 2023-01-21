@@ -9,3 +9,19 @@ body {
     position: relative;
     background-color: #222;
 }
+
+.container {
+    position: relative; 
+    top: 200px; 
+    width: 600px; 
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 48px;
+    margin: 10px 0;
+}
+
+p {
+    margin-bottom: 40px;
+}
