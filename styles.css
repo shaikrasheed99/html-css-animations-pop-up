@@ -25,3 +25,10 @@ h1{
 p {
     margin-bottom: 40px;
 }
+
+.bike {
+    position: relative;
+    top: 10px;
+    width: 100px;
+    left: 0px;
+}
