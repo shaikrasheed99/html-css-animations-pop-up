@@ -7,7 +7,7 @@
 body {
     margin: 0; 
     position: relative;
-    background-color: #222;
+    background-color: lightgrey;
 }
 
 .container {
@@ -48,7 +48,7 @@ p {
 
 .pop-up {
     text-align: center;
-    background: #f0e4d4; 
+    background: #d7b898; 
     padding: 30px; 
     position: relative; 
     top: 5px; 
