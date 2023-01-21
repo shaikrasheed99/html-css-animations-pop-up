@@ -42,3 +42,21 @@ p {
     width: 100%; 
     box-sizing: border-box;
 }
+
+.email {
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 10px 0 0 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.btn {
+    padding: 10px;
+    color: #fff;
+    background: #333;
+    margin-left: -5px;
+    border: 1px solid #333;
+    border-radius: 0 10px 10px 0;
+    font-size: 18px;
+}
