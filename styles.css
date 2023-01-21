@@ -3,3 +3,9 @@
     font-weight: normal;
     color: #333;
 }
+
+body {
+    margin: 0; 
+    position: relative;
+    background-color: #222;
+}
